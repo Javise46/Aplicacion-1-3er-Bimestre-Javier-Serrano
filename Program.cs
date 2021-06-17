@@ -31,7 +31,7 @@ namespace Aplicacion_1_3er_Bimestre_Javier_Serrano
                     op = int.Parse(Console.ReadLine());
 
                     Console.WriteLine("----------------------------------------------");
-                    System.Threading.Thread.Sleep(2000);
+                    System.Threading.Thread.Sleep(1500);
                     Console.Clear();
                     if (op == 1)
                     {
@@ -80,7 +80,7 @@ namespace Aplicacion_1_3er_Bimestre_Javier_Serrano
                     if (op == 3)
                     {
                         Console.WriteLine("----------------------------------------------");
-                        Console.WriteLine("Ingrese el carcter a buscar: ");
+                        Console.WriteLine("Ingrese el Nombre De Su Contacto a buscar: ");
                         buscar = Console.ReadLine();
                          
                         for (int z = 0; z <= 14; z++)
