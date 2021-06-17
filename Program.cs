@@ -36,7 +36,7 @@ namespace Aplicacion_1_3er_Bimestre_Javier_Serrano
                     if (op == 1)
                     {
                         Console.WriteLine("----------------------------------------------");
-                        for (int i = 0; i <= 15; i++)
+                        for (int i = 0; i <= 14; i++)
                         {
 
                             Console.WriteLine("i: " + i);
@@ -64,7 +64,7 @@ namespace Aplicacion_1_3er_Bimestre_Javier_Serrano
                     if (op == 2)
                     {
                         Console.WriteLine("----------------------------------------------");
-                        for (int x = 0; x <= 15; x++)
+                        for (int x = 0; x <= 14; x++)
                         {
                             Console.WriteLine("Nombre " + Nombre[x]);
                             Console.WriteLine("Apellido " + Apellido[x]);
@@ -83,7 +83,7 @@ namespace Aplicacion_1_3er_Bimestre_Javier_Serrano
                         Console.WriteLine("Ingrese el carcter a buscar: ");
                         buscar = Console.ReadLine();
                          
-                        for (int z = 0; z <= 2; z++)
+                        for (int z = 0; z <= 14; z++)
                         {
                             if (Nombre[z] == buscar)
                             {
